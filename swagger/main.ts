@@ -7,7 +7,8 @@ import { setVersion } from "./define";
 import { GenerateInterface } from "./interface";
 import { GenerateRequestMethod } from "./method";
 
-const BASE_SWAGGER_URL = "http://test-new-student-checker.ceeqee.com/api/swagger/doc.json";
+//swagger文档地址
+const BASE_SWAGGER_URL = "xxxxxxxxx";
 
 export class APIGenerater {
   baseSwaggerURL: string = BASE_SWAGGER_URL;
